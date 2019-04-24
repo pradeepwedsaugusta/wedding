@@ -15,21 +15,32 @@
   </nav>
 </header>
 <section class="first">
-  <div class="main-content">
-    <div class="container">
-      <h1 class="text-center">Pradeep & Augusta</h1>
-      <h3 class="text-center">We Are Getting Married</h3>
-      <h4 class="text-center">On 17 May,2019</h4>
-    </div>
-    <div class="container">
-      <countdown [config]="{leftTime: time}"><span class="number">$!d!</span><span class="time">Days</span><span
-          class="number">$!h!</span><span class="time">Hours</span><span class="number">$!m!</span><span
-          class="time">Minutes</span><span class="number">$!s!</span><span class="time">Seconds</span></countdown>
+  <div class="row justify-content-end">
+    <div class="col-lg-7">
+      <div class="container">
+        <h1 class="text-center name">Pradeep & Augusta</h1>
+        <h3 class="text-center">We Are Getting Married</h3>
+        <h4 class="text-center">On 17 May,2019</h4>
+      </div>
+      <div class="container">
+        <countdown [config]="{leftTime: time}">
           <div class="row">
-            <div class="col-12 text-center">
-              <button class="btn btn-success">SAVE THE DATE</button>
+            <div class="col-lg-3 col-md-6 col-sm-12"><span class="number">$!d!</span><span class="time">Days</span>
+            </div>
+            <div class="col-lg-3 col-md-6 col-sm-12"><span class="number">$!h!</span><span class="time">Hours</span>
+            </div>
+            <div class="col-lg-3 col-md-6 col-sm-12"><span class="number">$!m!</span><span class="time">Minutes</span>
+            </div>
+            <div class="col-lg-3 col-md-6 col-sm-12"> <span class="number">$!s!</span><span class="time">Seconds</span>
             </div>
           </div>
+        </countdown>
+        <div class="row">
+          <div class="col-12 text-center">
+            <button class="btn btn-success">SAVE THE DATE</button>
+          </div>
+        </div>
+      </div>
     </div>
   </div>
 </section>
