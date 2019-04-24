@@ -5,7 +5,7 @@ html,body {
   }
   
   .first {
-    padding-top:140px;
+    padding-top:50px;
     height:100vh;
     min-height:400px;
     background-size:cover;
@@ -48,21 +48,29 @@ html,body {
 .count-down{
   display: block !important;
     text-align: center;
-    padding: 100px;
+    padding-top: 10vh;
+    padding-bottom: 10vh;
 }
   .number{
-    background-color: #007bff;
-    font-size: 40px;
+    background-color: #a1b769;
+    font-size: 4vh;
     border-radius: 10px;
     color: white;
-    padding: 20px;
+    padding: 2vh;
   }
   .time{
-    color: #dc3545;
-    padding: 20px;
-    font-size: 30px;
-  }/* 
+    color: #007bff;
+    padding: 2vh;
+    font-size: 25px;
+  }
+  
   .main-content{
-    width:500px;
+    width:60vw;
     float:right;
-  } */
+  }
+  .main-content h1,.main-content h3,.main-content h4{
+    padding:2vh;
+  }
+  .main-content h1{
+    font-weight: bold;
+  }
