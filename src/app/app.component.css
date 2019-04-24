@@ -5,13 +5,27 @@ html,body {
   }
   
   .first {
-    padding-top:100px;
-    height:100vh;
-    min-height:400px;
-    background-size:cover;
-    background-image:url('../assets/images/home.png');
+   background-color: white;
+   margin-bottom: 30px;
+   position: relative;
   }
-  
+  .first:after{
+    content: '';
+    position: absolute;
+    width: 100%;
+    top: 0;
+    bottom: 0;
+    background: rgba(241, 0, 0, 0.48);
+  }
+  .first:before{
+        position: absolute;
+        width: 100%;
+        z-index: 1;
+        content: '';
+        height: inherit;
+        top: 75px;
+        bottom: 0px;
+  }
   .affix {
     -webkit-transition:padding 0.2s ease-out;
     -moz-transition:padding 0.2s ease-out;  
@@ -42,7 +56,6 @@ html,body {
   
   section {
     height:calc(90% - 50px);
-    height: 90vh;
   }
   
 .count-down{
@@ -52,15 +65,15 @@ html,body {
     padding-bottom: 10vh;
 }
   .number{
-    background-color: #a1b769;
+    background-color: white;
     font-size: 4vh;
     border-radius: 10px;
-    color: white;
+    color: #dc3545;
     padding: 2vh;
     display: block;
   }
   .time{
-    color: #007bff;
+    color: white;
     padding: 2vh;
     font-size: 25px;
   }
@@ -77,4 +90,10 @@ html,body {
   }
   .name{
     font-size: 10vh;
+  }
+  .nav-item a{
+    color:white;
+  }
+  .list-group-item i{
+    padding-right:30px;
   }
