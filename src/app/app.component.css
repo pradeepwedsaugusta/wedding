@@ -98,3 +98,11 @@ html,body {
   .addBg{
       background-color: #dc4343 !important;
   }
+  .image{
+    width: 10vw;
+    border-radius: 50%;
+  }
+  .heart{
+   display:inline;
+   font-family: 'dancing script';
+  }
