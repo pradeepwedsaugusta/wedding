@@ -1,5 +1,6 @@
+<div (scroll)="scrollHandler($event)">
 <header>
-  <nav class="navbar navbar-expand-lg fixed-top">
+  <nav class="navbar  navbar-inverse navbar-expand-lg fixed-top">      
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo01"
       aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon fa fa-bars"></span>
@@ -99,7 +100,8 @@
   <div class="container">
     <div class="row justify-content-center">
       <div class="col-12 text-center">
-        <h1 class="heading">Happy Couple</h1>
+        <h1 class="heading"><img src="assets/images/border.png" class="header-img"> Happy Couple<img
+            src="assets/images/border.png" class="header-img"> </h1>
         <p>The Couples That Are Meant to Be, Are the Ones Who Go Through Everything That Is Meant to Tear Them Apart,
           and Come out Even Stronger.</p>
         <p>Love meant that you care for another person's happiness more than your own, no matter how painful the choices
@@ -113,8 +115,9 @@
   <div class="container">
     <div class="row justify-content-center">
       <div class="col-12  text-center">
-        <h1 class="heading">Events</h1>
-        <div class="row">
+        <h1 class="heading"><img src="assets/images/border.png" class="header-img">Events<img
+            src="assets/images/border.png" class="header-img"></h1>
+        <div class="row justify-content-center">
           <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12">
             <div class="card">
               <i class="fa fa-heart fa-5x"></i>
@@ -159,11 +162,12 @@
           </div>
           <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12">
             <div class="card">
-              <i class="fa fa-gift fa-5x"></i>
+              <i class="fa fa-music fa-5x"></i>
               <div class="card-body">
-                <h5 class="card-title text-center">Gifts</h5>
-                <p><i>"Each day offers us the gift of being a special occasion if we can simply learn that as well as
-                    giving, it is blessed to receive with grace and a grateful heart."</i></p>
+                <h5 class="card-title text-center">Music</h5>
+                <p class="card-text"><i>"Music is a moral law. It gives soul to the universe, wings to the mind, flight
+                    to the imagination, and charm and gaiety to life and to everything.
+                    "</i></p>
                 <div class="row">
                   <div class="col-4"><i class="fa fa-map-marker fa-1x"></i><b>Venue</b></div>
                   <div class="col-8"><span>
@@ -180,51 +184,20 @@
           </div>
           <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12">
             <div class="card">
-              <i class="fa fa-bitbucket fa-5x"></i>
-              <div class="card-body">
-                <h5 class="card-title text-center">Photography</h5>
-                <p class="card-text"><i>“Photography is a way of feeling, of touching, of loving. What you have caught on film is captured forever… It remembers little things, long after you have forgotten everything.”</i></p>
-              </div>
-            </div>
-          </div>
-          <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12">
-            <div class="card">
-              <i class="fa fa-music fa-5x"></i>
-              <div class="card-body">
-                <h5 class="card-title text-center">Music</h5>
-                <p class="card-text"><i>"Music is a moral law. It gives soul to the universe, wings to the mind, flight to the imagination, and charm and gaiety to life and to everything.
-                   "</i></p>
-                   <div class="row">
-                      <div class="col-4"><i class="fa fa-map-marker fa-1x"></i><b>Venue</b></div>
-                      <div class="col-8"><span>
-                          Iyyanoor</span></div>
-                      <div class="col-4"><i class="fa fa-hourglass fa-1x"></i><b>Time</b></div>
-                      <div class="col-8"><span>
-                          6:00 PM onwards</span></div>
-                      <div class="col-4"><i class="fa fa-calendar fa-1x"></i><b>Date</b></div>
-                      <div class="col-8"><span>
-                          17 May,2019</span></div>
-                    </div>
-              </div>
-            </div>
-          </div>
-          <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12">
-            <div class="card">
               <i class="fa fa-coffee fa-5x"></i>
               <div class="card-body">
                 <h5 class="card-title text-center">Family Dinner</h5>
-                <p class="card-text">"Delicious food "</p>
-                  <div class="row">
-                      <div class="col-4"><i class="fa fa-map-marker fa-1x"></i><b>Venue</b></div>
-                      <div class="col-8"><span>
-                          Iyyanoor</span></div>
-                      <div class="col-4"><i class="fa fa-hourglass fa-1x"></i><b>Time</b></div>
-                      <div class="col-8"><span>
-                          6:00 PM onwards</span></div>
-                      <div class="col-4"><i class="fa fa-calendar fa-1x"></i><b>Date</b></div>
-                      <div class="col-8"><span>
-                          17 May,2019</span></div>
-                    </div>
+                <div class="row">
+                  <div class="col-4"><i class="fa fa-map-marker fa-1x"></i><b>Venue</b></div>
+                  <div class="col-8"><span>
+                      Iyyanoor</span></div>
+                  <div class="col-4"><i class="fa fa-hourglass fa-1x"></i><b>Time</b></div>
+                  <div class="col-8"><span>
+                      6:00 PM onwards</span></div>
+                  <div class="col-4"><i class="fa fa-calendar fa-1x"></i><b>Date</b></div>
+                  <div class="col-8"><span>
+                      17 May,2019</span></div>
+                </div>
               </div>
             </div>
           </div>
@@ -238,8 +211,10 @@
   <div class="container">
     <div class="row justify-content-center">
       <div class="col-12 text-center">
-        <h1 class="heading">About Us</h1>
-        <p><i>"Marriage is not a noun; it's a verb. It isn't something you get. It's something you do. It's the way you love your partner every day.
+        <h1 class="heading"><img src="assets/images/border.png" class="header-img">About Us<img
+            src="assets/images/border.png" class="header-img"></h1>
+        <p><i>"Marriage is not a noun; it's a verb. It isn't something you get. It's something you do. It's the way you
+            love your partner every day.
             "</i></p>
         <div class="row">
           <div class="col-lg-5 col-md-5 col-sm-6 col-xs-12">
@@ -258,8 +233,12 @@
             <div class="card">
               <div class="card-body">
                 <h5 class="card-title">Groom</h5>
-                <p class="card-text">As I grew up and began identifying myself as a feminist, there were plenty of issues that continued to make me question marriage: the father 'giving' the bride away, women taking their husband's last name, the white dress, the vows promising to 'obey' the groom. And that only covers the wedding.
-                    But that also a good and sweet life evryone should feel.When I saw you crying tears of joy in the altar, I knew I had made the best decision of my life by choosing to marry you.</p>
+                <p class="card-text">As I grew up and began identifying myself as a feminist, there were plenty of
+                  issues that continued to make me question marriage: the father 'giving' the bride away, women taking
+                  their husband's last name, the white dress, the vows promising to 'obey' the groom. And that only
+                  covers the wedding.
+                  But that also a good and sweet life evryone should feel.When I saw you crying tears of joy in the
+                  altar, I knew I had made the best decision of my life by choosing to marry you.</p>
               </div>
             </div>
           </div>
@@ -272,8 +251,9 @@
   <div class="container">
     <div class="row justify-content-center">
       <div class="col-12 text-center">
-        <h1 class="heading">Location</h1>
-        <div class="row">
+        <h1 class="heading"><img src="assets/images/border.png" class="header-img">Location<img
+            src="assets/images/border.png" class="header-img"></h1>
+        <div class="row justify-content-center">
           <div class="col-lg-7 col-md-7 col-sm-7 col-xs-12">
             <div class="card">
               <div class="card-body">
@@ -294,7 +274,7 @@
           </div>
           <div class="col-lg-5 col-md-5 col-sm-5 col-xs-12">
             <div class="card">
-              <div class="card-body">
+              <div class="card-body text-center">
                 <h6 class="card-title">Scan Me</h6>
                 <img src="assets/images/qrcode.png">
               </div>
@@ -309,9 +289,41 @@
   <div class="container">
     <div class="row justify-content-center">
       <div class="col-12 text-center">
-        <h2>Thank You</h2>
+        <div class="row">
+          <div class="col-4 text-right"><img src="assets/images/border1.png" class="img-footer"></div>
+          <div class="col-4">
+            <h1 class="heading-bottom">Welcome</h1>
+            <h4 class="heading-bottom"> To Our Family Wedding</h4>
+          </div>
+          <div class="col-4 text-left"><img src="assets/images/border1.png" class="img-footer"></div>
+        </div>
+        <div class="row">
+          <div class="col-lg-5 col-md-5 col-sm-12">
+            <div class="jumbotron">
+              <div class="container">
+                <p>Mr. and Mrs. V.Ramar</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-2 col-md-2 col-sm-12">
+            <div class="jumbotron">
+              <div class="container">
+                <img src="assets/images/bottom1.png" width="100%">
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-5 col-md-5 col-sm-12">
+            <div class="jumbotron">
+              <div class="container">
+                <p>Mr. and Mrs R.Johnson</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <img src="assets/images/bottom.png" width="100%">
       </div>
     </div>
   </div>
 </section>
+</div>
 <router-outlet></router-outlet>

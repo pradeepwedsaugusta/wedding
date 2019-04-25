@@ -25,3 +25,17 @@ body {
     text-align: left;  
 
 }
+.header-img{
+    width:10vw;
+    padding-left:10px;
+    padding-right: 10px;
+}
+.jumbotron{
+    background-color: white !important;
+    font-size: 2vw;
+}
+.nav-pills .nav-item .active{
+    background-color: transparent !important;
+    border-bottom: 2px solid white;
+    border-radius: 0 !important;
+}
