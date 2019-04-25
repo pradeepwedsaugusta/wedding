@@ -61,21 +61,21 @@ html,body {
 .count-down{
   display: block !important;
     text-align: center;
-    padding-top: 10vh;
-    padding-bottom: 10vh;
+    padding-top: 1vw;
+    padding-bottom: 1vw;
 }
   .number{
     background-color: white;
-    font-size: 4vh;
+    font-size: 2vw;
     border-radius: 10px;
     color: #dc3545;
-    padding: 2vh;
+    padding: 1vw;
     display: block;
   }
   .time{
     color: white;
-    padding: 2vh;
-    font-size: 25px;
+    padding: 1vw;
+    font-size: 1vw;
   }
   
   .main-content{
@@ -83,17 +83,29 @@ html,body {
     float:right;
   }
   .main-content h1,.main-content h3,.main-content h4{
-    padding:2vh;
+    padding:2vw;
   }
   .main-content h1{
     font-weight: bold;
   }
   .name{
-    font-size: 10vh;
+    font-size: 5vw;
+    padding:1vw;
+  }
+  .marry{
+    font-size: 2vw;
+    padding:1vw;
+  }
+  .date{
+    font-size: 1vw;
   }
   .nav-item a{
     color:white;
   }
-  .list-group-item i{
-    padding-right:30px;
+  .save-date{
+    width:10vw;
+  }
+  .heading{
+    padding:2vw;
+    color:#f27362;
   }

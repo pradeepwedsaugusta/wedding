@@ -9,8 +9,19 @@ body {
 }
 .fa {
     color:#DC4343;
+    padding-right:1vw;
 }
 .card{
-    border:none !important;
-    padding:50px;
+    border:none !important; 
+    margin-top: 2vw;
+    margin-bottom: 2vw;
+}
+.carousel-caption{
+    bottom:0px !important;
+    padding-top: 5vw !important;
+    padding-bottom: 5vw !important;
+}
+.card-body{
+    text-align: left;  
+
 }
