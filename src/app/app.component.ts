@@ -13,7 +13,7 @@ export class AppComponent {
   constructor() {
     var startDate = new Date();
     var endDate = new Date('05/17/2019');
-    this.time = (endDate.getTime() - startDate.getTime()) / 1000;
+    this.time = (endDate.getTime() - startDate.getTime()) / 1000;   
   }
   @HostListener('window:scroll', ['$event'])
   scrollHandler(event) {
